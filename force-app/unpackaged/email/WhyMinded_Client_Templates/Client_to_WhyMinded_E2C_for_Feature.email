@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font size="1"><font face="arial" style="color: rgb(0, 0, 0); font-family: arial;">x_WM_Project_Task_ID:&nbsp;</font><font face="arial" style="">{!Salesforce_Feature__c.WhyMinded_ID_18_digit__c}</font></font><div style=""><font face="arial" style="" size="1">x_Client_Feature_ID:&nbsp;</font><span style="font-size: x-small;">{!Salesforce_Feature__c.Salesforce_Feature_ID_18_digit__c}</span></div>]]></td>
+</tr>
+</table>

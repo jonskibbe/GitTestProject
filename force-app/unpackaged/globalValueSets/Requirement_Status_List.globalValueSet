@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Not Started or Inactive</fullName>
+        <default>false</default>
+        <label>Not Started or Inactive</label>
+    </customValue>
+    <customValue>
+        <fullName>Awaiting Client Response</fullName>
+        <default>false</default>
+        <label>Awaiting Client Response</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Responded</fullName>
+        <default>false</default>
+        <label>Client Responded</label>
+    </customValue>
+    <customValue>
+        <fullName>Planning</fullName>
+        <default>false</default>
+        <label>Planning</label>
+    </customValue>
+    <customValue>
+        <fullName>Building</fullName>
+        <default>false</default>
+        <label>Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Testing</fullName>
+        <default>false</default>
+        <label>Internal Testing</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Testing</fullName>
+        <default>false</default>
+        <label>Client Testing</label>
+    </customValue>
+    <customValue>
+        <fullName>Accepted</fullName>
+        <default>false</default>
+        <label>Accepted</label>
+    </customValue>
+    <masterLabel>Requirement Status List</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

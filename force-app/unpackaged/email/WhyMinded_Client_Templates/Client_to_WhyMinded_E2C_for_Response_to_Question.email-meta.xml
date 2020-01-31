@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Why_Minded_LLC_Letterhead</letterhead>
+    <name>Client to WhyMinded E2C for Response to Question</name>
+    <style>freeForm</style>
+    <subject>Client to WhyMinded E2C for Question</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

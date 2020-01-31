@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Task_Outcome__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Task Outcome</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Task_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Successful</fullName>
+                    <default>false</default>
+                    <label>Successful</label>
+                </value>
+                <value>
+                    <fullName>Left VM</fullName>
+                    <default>false</default>
+                    <label>Left VM</label>
+                </value>
+                <value>
+                    <fullName>Call Back Requested</fullName>
+                    <default>false</default>
+                    <label>Call Back Requested</label>
+                </value>
+                <value>
+                    <fullName>Bad Phone Number</fullName>
+                    <default>false</default>
+                    <label>Bad Phone Number</label>
+                </value>
+                <value>
+                    <fullName>Sent SMS Message</fullName>
+                    <default>false</default>
+                    <label>Sent SMS Message</label>
+                </value>
+                <value>
+                    <fullName>Received SMS Message</fullName>
+                    <default>false</default>
+                    <label>Received SMS Message</label>
+                </value>
+                <value>
+                    <fullName>Sent LinkedIn Message</fullName>
+                    <default>false</default>
+                    <label>Sent LinkedIn Message</label>
+                </value>
+                <value>
+                    <fullName>Received LinkedIn Message</fullName>
+                    <default>false</default>
+                    <label>Received LinkedIn Message</label>
+                </value>
+                <value>
+                    <fullName>Sent LinkedIn Connection Request</fullName>
+                    <default>false</default>
+                    <label>Sent LinkedIn Connection Request</label>
+                </value>
+                <value>
+                    <fullName>Meeting No Show</fullName>
+                    <default>false</default>
+                    <label>Meeting No Show</label>
+                </value>
+                <value>
+                    <fullName>Meeting Cancellation</fullName>
+                    <default>false</default>
+                    <label>Meeting Cancellation</label>
+                </value>
+                <value>
+                    <fullName>Meeting Needs to be Rescheduled</fullName>
+                    <default>false</default>
+                    <label>Meeting Needs to be Rescheduled</label>
+                </value>
+                <value>
+                    <fullName>Email Sent</fullName>
+                    <default>false</default>
+                    <label>Email Sent</label>
+                </value>
+                <value>
+                    <fullName>Email Received</fullName>
+                    <default>false</default>
+                    <label>Email Received</label>
+                </value>
+                <value>
+                    <fullName>Email Bounced</fullName>
+                    <default>false</default>
+                    <label>Email Bounced</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Call</controllingFieldValue>
+                <controllingFieldValue>Virtual Meeting</controllingFieldValue>
+                <controllingFieldValue>In-Person Meeting</controllingFieldValue>
+                <valueName>Successful</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Call</controllingFieldValue>
+                <valueName>Left VM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Call</controllingFieldValue>
+                <valueName>Call Back Requested</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Call</controllingFieldValue>
+                <valueName>Bad Phone Number</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Email</controllingFieldValue>
+                <valueName>Email Sent</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Email</controllingFieldValue>
+                <valueName>Email Received</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Email</controllingFieldValue>
+                <valueName>Email Bounced</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SMS Message</controllingFieldValue>
+                <valueName>Sent SMS Message</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>SMS Message</controllingFieldValue>
+                <valueName>Received SMS Message</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LinkedIn Message</controllingFieldValue>
+                <valueName>Sent LinkedIn Message</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LinkedIn Message</controllingFieldValue>
+                <valueName>Received LinkedIn Message</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>LinkedIn Message</controllingFieldValue>
+                <valueName>Sent LinkedIn Connection Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Virtual Meeting</controllingFieldValue>
+                <controllingFieldValue>In-Person Meeting</controllingFieldValue>
+                <valueName>Meeting No Show</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Virtual Meeting</controllingFieldValue>
+                <controllingFieldValue>In-Person Meeting</controllingFieldValue>
+                <valueName>Meeting Cancellation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Virtual Meeting</controllingFieldValue>
+                <controllingFieldValue>In-Person Meeting</controllingFieldValue>
+                <valueName>Meeting Needs to be Rescheduled</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Task_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Task Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Task_Type_List</valueSetName>
+        </valueSet>
+    </fields>
+</CustomObject>

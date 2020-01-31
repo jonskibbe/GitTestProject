@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Submitted by Client</fullName>
+        <default>false</default>
+        <label>Submitted by Client</label>
+    </customValue>
+    <customValue>
+        <fullName>In Review by Why Minded</fullName>
+        <default>false</default>
+        <label>In Review by Why Minded</label>
+    </customValue>
+    <customValue>
+        <fullName>Added to Requirements</fullName>
+        <default>false</default>
+        <label>Added to Requirements</label>
+    </customValue>
+    <customValue>
+        <fullName>Canceled by Client</fullName>
+        <default>false</default>
+        <label>Canceled by Client</label>
+    </customValue>
+    <customValue>
+        <fullName>Paused by Client</fullName>
+        <default>false</default>
+        <label>Paused by Client</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Possible</fullName>
+        <default>false</default>
+        <label>Not Possible</label>
+    </customValue>
+    <masterLabel>Modification Status List</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
